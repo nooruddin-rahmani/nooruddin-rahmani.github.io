@@ -1,0 +1,24 @@
+---
+export interface Props {
+  href: string;
+  cardTitle: string;
+  description: string;
+  imageSrc: string;
+}
+
+const { href, cardTitle, description, imageSrc } = Astro.props;
+---
+
+<section
+  class="border rounded-md group bg-cover h-64 md:h-80 md:mx-20 lg:mx-60 lg:my-6 my-3 mx-4"
+  style={`background-image: url(${imageSrc});`}
+>
+  <a href={href}>
+    <div
+      class="p-4 opacity-0 group-hover:opacity-100 group-hover:bg-sky-900 group-hover:bg-opacity-50 h-full text-white rounded-md md:p-20"
+    >
+      <h2 class="my-2 text-2xl md:text-3xl font-bold">{cardTitle}</h2>
+      <p class="text-sm md:text-base">{description}</p>
+    </div>
+  </a>
+</section>
