@@ -637,6 +637,18 @@ ast-types@0.14.2, ast-types@^0.14.2:
   dependencies:
     tslib "^2.0.1"
 
+astro-analytics@^2.1.1:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/astro-analytics/-/astro-analytics-2.4.0.tgz#8f88b6dd273db19f7b6c67aed594f4846238ab93"
+  integrity sha512-uHfbX5gTxOkfsTBHONaAt3+KQeIbWouc4hZeVoNj50njnG+UT6YjFthaORbxyoWVwchiQrDIdkgVbksskkaAnQ==
+
+astro-head@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/astro-head/-/astro-head-1.0.1.tgz#8b5145e83706b68872a300a466575b7617df1e43"
+  integrity sha512-CWgmLJESZDdyYn4zB2tmln++OEZuR6yn3iuenhKgzHSd9MkbGsFVeJ3xXiA6l/H35FHjAW0tK54DKb/C9GkrNA==
+  dependencies:
+    astro-analytics "^2.1.1"
+
 astro-hotjar@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/astro-hotjar/-/astro-hotjar-1.0.1.tgz#66ca3dd6f8b20cb36264d6fafe7b88f3837fccfb"
