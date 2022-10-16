@@ -637,28 +637,6 @@ ast-types@0.14.2, ast-types@^0.14.2:
   dependencies:
     tslib "^2.0.1"
 
-astro-analytics@^2.1.1:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/astro-analytics/-/astro-analytics-2.4.0.tgz#8f88b6dd273db19f7b6c67aed594f4846238ab93"
-  integrity sha512-uHfbX5gTxOkfsTBHONaAt3+KQeIbWouc4hZeVoNj50njnG+UT6YjFthaORbxyoWVwchiQrDIdkgVbksskkaAnQ==
-
-astro-head@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/astro-head/-/astro-head-1.0.1.tgz#8b5145e83706b68872a300a466575b7617df1e43"
-  integrity sha512-CWgmLJESZDdyYn4zB2tmln++OEZuR6yn3iuenhKgzHSd9MkbGsFVeJ3xXiA6l/H35FHjAW0tK54DKb/C9GkrNA==
-  dependencies:
-    astro-analytics "^2.1.1"
-
-astro-hotjar@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/astro-hotjar/-/astro-hotjar-1.0.1.tgz#66ca3dd6f8b20cb36264d6fafe7b88f3837fccfb"
-  integrity sha512-KvKOAHOub7RMcmyqVynmOM+DCsuUYUUDuDbDew8dEdadjmmHQ7huyFFtVxfK0pXpfz7THo1/vyUl8ah2YjRC/g==
-
-astro-seo@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/astro-seo/-/astro-seo-0.6.0.tgz#d46f98baa929f2111dd702662806fa741a9ac02a"
-  integrity sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==
-
 astro@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/astro/-/astro-1.1.1.tgz#d1e1fd870e65fbece85562657a8133e028e40469"

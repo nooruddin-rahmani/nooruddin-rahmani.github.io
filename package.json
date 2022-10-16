@@ -11,11 +11,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0",
-    "astro": "^1.1.1",
-    "astro-hotjar": "^1.0.1",
-    "astro-seo": "^0.6.0"
+    "astro": "^1.1.1"
   },
-  "dependencies": {
-    "astro-head": "^1.0.1"
-  }
+  "dependencies": {}
 }
