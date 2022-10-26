@@ -7,7 +7,7 @@ import Header from "../components/Header.astro";
   <Header />
   <section class="mx-4 my-10 md:mx-20 lg:mx-40">
     <div class="md:flex md:items-center md:justify-center">
-      <img src="/assets/images/banner.png" alt="banner" />
+      <img src="/assets/images/banner.png" alt="banner" loading="lazy" />
     </div>
     <div class="my-10 flex flex-col items-center md:flex md:flex-row">
       <div class="md:w-1/2 md:mx-5">
@@ -37,6 +37,7 @@ import Header from "../components/Header.astro";
           class="my-10"
           src="/assets/images/bookshelf-mockup.webp"
           alt="bookshelf Mockup"
+          loading="lazy"
         />
       </div>
     </div>
@@ -47,6 +48,7 @@ import Header from "../components/Header.astro";
         src="/assets/images/figjam.png"
         class="border h-40 md:h-80"
         alt="figjam"
+        loading="lazy"
       />
     </div>
     <div class="my-5 flex flex-col justify-center items-center border-t">
@@ -56,16 +58,22 @@ import Header from "../components/Header.astro";
       <div
         class="flex flex-col justify-center items-center gap-5 md:flex md:flex-row md:flex-wrap"
       >
-        <img src="/assets/images/Search.png" alt="Search" /><img
+        <img src="/assets/images/Search.png" alt="Search" loading="lazy" /><img
           src="/assets/images/signup.png"
           alt="Sign up"
-        /><img src="/assets/images/readingdark.png" alt="Reading-Dark" />
-        <img src="/assets/images/notes.png" alt="Notes" /><img
+        /><img
+          src="/assets/images/readingdark.png"
+          alt="Reading-Dark"
+          loading="lazy"
+        />
+        <img src="/assets/images/notes.png" alt="Notes" loading="lazy" /><img
           src="/assets/images/sign.png"
           alt="Sign in"
+          loading="lazy"
         /><img
           src="/assets/images/homefirsttimeuser.png"
           alt="Home dirst time user"
+          loading="lazy"
         />
       </div>
     </div>
